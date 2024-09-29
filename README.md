@@ -1,7 +1,4 @@
-# Desafios Lógicos - Flutter App
-
-Este é um aplicativo Flutter para resolver diversos desafios lógicos. Este guia fornece todas as etapas necessárias para configurar o ambiente de desenvolvimento e executar o projeto corretamente em uma nova máquina, tanto em **Linux** quanto em **Windows**.
-
+# Flutter App
 ## Requisitos Gerais
 
 Antes de começar, certifique-se de que sua máquina atenda aos seguintes requisitos:
@@ -10,6 +7,53 @@ Antes de começar, certifique-se de que sua máquina atenda aos seguintes requis
 - **Android Studio**: Para compilar e rodar o app em dispositivos Android ou emuladores.
 - **VS Code ou IntelliJ**: (Opcional) Para uma IDE com suporte ao Flutter/Dart.
 - **Git**: Para clonar o repositório.
+
+---
+
+## Demonstração Visual
+
+Aqui estão as capturas de tela e vídeos que ilustram o aplicativo em funcionamento:
+
+### Organização dos Diretórios
+![Organização dos Diretórios](https://drive.google.com/uc?export=view&id=1sUKO0D9GQXTt34a6sFWEWsFx6kGX_4gw)
+
+### Tela de Home
+![Tela de Home](https://drive.google.com/uc?export=view&id=1p4PUUtR34hoJlBjVgqyD83wrPfPIRuKY)
+
+### Vídeos Demonstrativos
+
+1. **Verificar Fibonacci**
+   
+   Neste teste, foram inseridos os números 250 e 144. O número 250 retorna a mensagem "250 não pertence à sequência de Fibonacci", enquanto 144 pertence à sequência e retorna a mensagem adequada.
+   
+   ![Verificar Fibonacci](./gifs/fib.gif)
+
+3. **Verificar Ocorrência de "a"**
+   
+   Foi inserido a palavra "homeOffice" para verificar quantas vezes a letra "a" aparece. O sistema analisa a string e exibe o resultado: "A letra 'a' aparece 0 vezes na string informada". Em seguida é inserido "casarao" retornando mensagem: "A letra 'a' aparece 3 vezes na string informada".
+   
+   ![Verificar Ocorrência de "a"](./gifs/letra-a.gif)
+
+5. **Valor da Soma no Loop**
+
+   Este exemplo demonstra a execução de um loop para calcular o valor final da variável SOMA. Foi realizado uma série de somas a partir de um loop onde a variável K é incrementada até um limite específico. O resultado final é exibido corretamente como 91, com um loop que acumula os valores da variável K até o índice 12.
+   
+   ![Valor da Soma no Loop](./gifs/soma-loop.gif)
+
+7. **Descobrir Lógica das Sequências**
+
+    O sistema apresenta diferentes tipos de sequências lógicas, como números ímpares, potências de dois, quadrados perfeitos e a sequência de Fibonacci. Para cada sequência, o sistema fornece a explicação detalhada de como os números são formados,         além de indicar qual é o próximo número esperado com base na lógica apresentada. A interface exibe claramente a sequência inicial, seguida de uma explicação e a resposta.
+    
+    As sequências incluem:
+    
+    - **a)** Números ímpares, onde o próximo número após 7 é 9.
+    - **b)** Potências de 2, com o próximo valor sendo 128.
+    - **c)** Quadrados perfeitos, com o próximo número sendo 49 (7^2).
+    - **d)** Outra sequência de quadrados perfeitos começando de 2^2, onde o próximo é 100 (10^2).
+    - **e)** Sequência de Fibonacci, com o próximo número sendo 13.
+    - **f)** Sequência com padrão misto, onde o próximo número é 20.
+
+   ![Descobrir Lógica das Sequências](./gifs/logic.gif)
 
 ---
 
@@ -189,29 +233,4 @@ Antes de começar, certifique-se de que sua máquina atenda aos seguintes requis
     ```
 
 ---
-
-## Outros Recursos Úteis
-
-- [Documentação Oficial do Flutter](https://flutter.dev/docs)
-- [Documentação do Android Studio](https://developer.android.com/studio)
-
----
-
-## Contribuição
-
-1. Faça o fork do repositório.
-2. Crie um branch para sua feature:
-    ```bash
-    git checkout -b minha-feature
-    ```
-3. Commit suas alterações:
-    ```bash
-    git commit -m "Adicionar minha feature"
-    ```
-4. Faça o push para o branch:
-    ```bash
-    git push origin minha-feature
-    ```
-5. Abra um **Pull Request**.
-
 
